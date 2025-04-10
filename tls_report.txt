@@ -1,0 +1,17 @@
+
+Task 2: TLS and HTTPS – Final Report
+
+1. TLS Handshake Explanation:
+When I visit a secure website like https://www.spacex.com, my browser and the server begin a TLS handshake. 
+This starts with a 'Client Hello' and 'Server Hello' where they agree on TLS version and cipher suite. 
+The server sends a certificate to prove its identity. Once verified, both sides create a shared key and begin encrypted communication.
+
+2. MITM Protection Mechanisms:
+TLS protects against man-in-the-middle (MITM) attacks by using trusted digital certificates and encryption. 
+The browser checks that the server’s certificate is valid and issued by a known Certificate Authority (CA). 
+Only the server has the private key to complete the handshake, so attackers can’t intercept or change the data.
+
+3. TLS Application in Websites:
+TLS is what makes HTTPS secure. It encrypts everything I send and receive on the site, such as passwords or personal info. 
+It also makes sure I’m talking to the real website and not a fake one. 
+TLS keeps online communication private, trusted, and protected from tampering.
